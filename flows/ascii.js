@@ -7,6 +7,10 @@ module.exports = (slapp) => {
       text: `(╯°□°）╯︵ ┻━┻`,
       response_type: 'in_channel',
       as_user: true
+    }, (err) => {
+      if(err) {
+        console.error(err);
+      }
     });
   });
 

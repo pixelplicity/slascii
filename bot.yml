@@ -9,3 +9,4 @@ screenshots:
   - screenshot: .beepboop/inorout-long.gif
 slackscopes:
   - commands
+  - chat:write:user
