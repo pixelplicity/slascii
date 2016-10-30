@@ -1,23 +1,32 @@
-'use strict'
-const express = require('express')
-const Slapp = require('slapp')
-const BeepBoopConvoStore = require('slapp-convo-beepboop')
-const BeepBoopContext = require('slapp-context-beepboop')
-if (!process.env.PORT) throw Error('PORT missing but required')
+'use strict';
 
-var slapp = Slapp({
+const config = require('config');
+const express = require('express');
+const Firebase = require('firebase');
+const Slapp = require('slapp');
+const BeepBoopConvoStore = require('slapp-convo-beepboop');
+const BeepBoopContext = require('slapp-context-beepboop');
+const port = process.env.PORT || config.get('port');
+const slapp = Slapp({
   record: 'out.jsonl',
-  convo_store: BeepBoopConvoStore(),
+  convo_store: BeepBoopConvoStore(), // jshint ignore:line
   context: BeepBoopContext()
-})
+});
 
-// require('beepboop-slapp-presence-polyfill')(slapp, { debug: true })
-require('./flows')(slapp)
-var app = slapp.attachToExpress(express())
+Firebase.initializeApp({
+  serviceAccount: config.get('firebase.service'),
+  databaseURL: config.get('firebase.url')
+});
+
+require('./flows')(slapp);
+const app = slapp.attachToExpress(express())
 
 app.get('/', function (req, res) {
-  res.send('Hello')
-})
+  res.send('┬┴┬┴┤･ω･)ﾉ├┬┴┬┴');
+});
 
-console.log('Listening on :' + process.env.PORT)
-app.listen(process.env.PORT)
+const server = app.listen(port);
+
+server.on('listening', () => {
+  console.log(`Slascii started on ${port}`);
+});

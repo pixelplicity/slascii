@@ -1,0 +1,18 @@
+{
+  "port": 3030,
+  "firebase": {
+    "url": "https://slascii-a7977.firebaseio.com",
+    "service": { 
+      "type": "service_account",
+      "project_id": "slascii-a7977",
+      "private_key_id": "8629a2943ff397f189ea9d9c2ebede86462768a7",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDKNhFfYP4Dew0K\nuJyPrlmhInqLse+NUB99l5IzcRikFpGODxLALS4j4rjViXX+M0exu119cAGXH1JG\ni1to8/eFSKkcueglit0RcWGtTlyBASQk3b2aoGxx9IcHHO8qdVizEowXKTFhoRoE\nQIm3zsRcLJIoxjoUkWdAGMOf12u57TpCaZYhNz3ONB9Vup+MIf4KiqRC1i6Zj84I\nyDphG0QTLHXZQNSiWbsk2113ww0OqkhZurf1aR/jjMedyhihqcd1Kse05v7l5gme\n94vQsvvNYLnww1+XPOB3O6ykrTCxZH83o1NgT4CKtUBUFUBCSE5lDMjYhz9A6b/R\nDeyLWZExAgMBAAECggEBAIisUsGsxQOFQCNm9CsJJPuMWlfhRJC2/xHcSK0MXCNM\nPcVO2tWZs/39WAC8kEvoTSUMBvypn+mM+gdEWdxuSXaEzgjkfswhN5p6kBKbTFrF\ncrCYT3cbxzCenkVogR6pgfJHLvjYls/uG6+UD4F097N1TLTShp8wSCFCm7aF3AIl\n6XN9FuGT8JlGr27dR9ehL/ftdEDOcAmt+4g8eWQgbcnrDesfmuWdewUFJQyJVJD2\nwKD57JGOM1XMpVwkOB7XgJ2i0dSNmrkJVap9BWHAmj8szrAXgAt0cuwk5I11T5L5\nTz+qccd+GrH8/Cdxf6ZeGnAjmg6kZCYOlKwJJMfGtyECgYEA8m3Q/gy4Iy90LpUz\n4pvjvYblIzQNb0qkdgR8QpUW84ZGGRa08ymQJJbpXrI2WQSHZeeMOSd3dGlxqe+i\nttCntNyuGnaoeLe3a0KfvC7eGqFaw0IQmprwuHdWDQPaq1l6VVb5AFzshLIoAi5L\nc+iowZ2BUuQmE3vsZwjR4hMymJ8CgYEA1YfmzxtSqP3zWVk2HNi0MsaziQUm4C4m\nijzXZs1ks81YhB2wUy2ngnlqkAfQG1BktpI1EyaPNV8DPZ+sX7fb1wQZ1KN0ZDS5\nVFE7MVUj6tYUN1YH+o3dHEyCK1XF6oCwOBDgx7KdpIIwC37NmD6ipJmxCWIaUt6i\nS6LvnFVo9C8CgYBJuiIUERQzByyDOjcEVLqHGi43bY4kaYPorGaJ7UOEnjJVUPWI\n+fvvVMH2XaZvnhP7ZtbbTuhiS+sYbluC06QdOfvs6mdEB0NN6H4hwfMkECxFM6NP\nEY3h29Ecti5bbCPrLj8d4CTCGlhWiXPC9V/VOixpZB88T7TOhP0njwUVKwKBgQDG\ncGLua9z40fCaQ08HpdhpK8Hjf5cuVZVZeMtRbWW9twMg3Jpl4pK+rWl76tba226N\nQPj0ECyck+zmEwLVfX9fph7/PtxG17y4ADm7Uf1sG4F0H46QqdAnoW6DKVYh5XBe\n2kibLYJVROuzcydL6kGqKG6fYr1F8ELxeb2mErXT3wKBgQDx8uqsP6Nedeail2/z\n6N1RU5VVaOn5HewVsGgICl6fKt0V1se8nYgDQbwyXbFIgIUfPb52WN2M8Fh80lEs\nibr/2IlVH8xvaBoBtUbFgygZ165+n/3hJtyT6uOAxsuld9AIyENNggO/ejlEU++s\nrW30xl8hXetxBKe2IA2kOjpgAg==\n-----END PRIVATE KEY-----\n",
+      "client_email": "beepboophq@slascii-a7977.iam.gserviceaccount.com",
+      "client_id": "107849545560112183235",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://accounts.google.com/o/oauth2/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/beepboophq%40slascii-a7977.iam.gserviceaccount.com"
+    }
+  }
+}
